@@ -1,0 +1,215 @@
+*{
+    background-color:  #252323;
+    width: 1330px;
+    font-family: Caveat, cursiva;;
+}
+#logo{
+    border-radius: 20px;
+}
+#titulo-menu{
+  margin-top: 100px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 50px;
+}
+button{
+   background-color: aliceblue;
+   height: 40px;
+   width: 150px;
+   color: #252323;
+   border: 0px;
+   border-radius: 15px;
+   margin-top: 100px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto; 
+   font-size: 20px;
+}
+#imagem-studio{ 
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+}
+.studiologo{
+    margin-top: 100px;
+    width: 260px;
+    border-radius: 20px;
+}
+
+#titulo-rodape{
+    margin-top: 100px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 100px;
+}
+#imagem-portfolio{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.studioportfolio{
+    margin-top: 100px;
+    width: 260px;
+    border-radius: 20px;
+}
+#titulo-historia{
+    margin-top: 100px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+}
+#fotojohny{
+    margin-top: 50px;
+    width: 260px;
+    display: block;
+   border-radius: 20px;
+   margin: auto;
+}
+#paragrafo-menu{
+    margin-top: 100px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+#paragrafo-rodape{
+    margin-top: 100px;
+    text-align: center;
+    color: #999;
+    font-size: 30px;
+}
+#mapa{
+    width: 100%;
+    height: 300px;
+    box-shadow: 0 0 3px #999;
+    border-radius: 20px;
+    border-top: 10px;
+}
+#Lohana{
+    text-align: center;
+    color: #999;
+    font-family: apple chancery, cursive;
+    font-size: 100%
+    }
+    
+.botaoredesocial{
+    
+}
+#whatsApp{
+    height: 50px;
+    width: 50px;
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+    cursor: pointer;
+    z-index: 1000;
+    border-radius: 50px;
+}
+#instagram{
+    height: 50px;
+    width: 50px;
+    bottom: 10px;
+    right: 65px;
+    position: fixed;
+    cursor: pointer;
+    z-index: 1000;
+    border-radius: 50px;
+ 
+}
+
+@media only screen and (max-width: 768px){
+    #logo{
+      width: 400px;
+      height: 400px;
+    }
+    #titulo-menu{
+      font-size: 35px;
+      width: 100px;
+      padding-right: 100px;
+      padding-left: 150px;
+    }
+    
+    #button{
+       width: 100%;
+  }
+   #imagem-studio{
+            width: 10;
+            height: 10;
+            display: flex;
+            flex-direction: column;
+            width: 100px; 
+            padding-right: 100px;
+            padding-left: 80px;
+        }
+    
+    #titulo-rodape{
+        width: 100px; 
+        font-size: 50px;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+    #imagem-portfolio{
+        width: 10;
+        height: 10;
+        display: flex;
+        flex-direction: column;
+        width: 100px; 
+        padding-right: 100px;
+        padding-left: 80px;
+    }
+    
+    #titulo-historia{
+        width: 100px; 
+        font-size: 50px;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+    #fotojohny{
+        display: flex;
+        flex-direction: column;
+        padding-right:1500px;
+        padding-left: 100px;
+     
+    }
+    #paragrafo-menu{
+        width: 100px; 
+        font-size: 30px;
+        padding-right: 100px;
+        padding-left: 150px;
+    }
+    #paragrafo-rodape{
+        width: 100px; 
+        font-size: 30px;
+        padding-right: 100px;
+        padding-left: 150px;
+    }
+    #mapa{
+        width: 150px;
+        height: 100px;
+        padding-left: 120px;
+        padding-right: 150px;
+        
+        
+    }
+    #Lohana{
+        display: flex;
+        flex-direction: column;
+        width: 100px; 
+        font-size: 10px;
+        padding-right: 100px;
+        padding-left: 150px;
+    }
+    #botaoredesocial{
+
+        width: 100px; 
+        padding-left: 120px;
+        padding-right: 150px;
+        
+    }
+    
+    
+ }
+    
+
